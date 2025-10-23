@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>In Sheep's Clothing</title>
+  <meta name="description" content="A 5-day social-engineering awareness challenge with playful sheep-themed ranks.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="assets/images/logo-wordmark.png" alt="In Sheep's Clothing" style="height: 48px; width: auto;">
+    </div>
+    <div class="header-actions">
+      <button id="restartBtn" class="btn">Restart</button>
+      <button id="shareBtn" class="btn primary">Share</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Left Sidebar: Score -->
+    <aside class="score-sidebar" id="scoreSidebar">
+      <div class="sidebar-title">Score</div>
+      <div class="score-section">
+        <div id="scoreDisplay" class="score-display">0</div>
+        <div class="score-label">out of 100</div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center: Quiz -->
+    <section class="quiz-content" id="quizContent"></section>
+
+    <!-- Right Sidebar: Calendar -->
+    <aside class="calendar-sidebar" id="calendarSidebar">
+      <div class="sidebar-title">Calendar</div>
+      <div class="week-tabs">
+        <div class="week-tab active">Week 1</div>
+        <div class="week-tab locked">Week 2 🔒</div>
+        <div class="week-tab locked">Week 3 🔒</div>
+        <div class="week-tab locked">Week 4 🔒</div>
+      </div>
+      <div class="days-list" id="daysList"></div>
+    </aside>
+  </main>
+
+  <!-- Intro Dialog -->
+  <dialog id="introDialog">
+    <div class="intro-content">
+      <div class="intro-image">
+        <img src="assets/images/logo-wordmark-top.png" alt="In Sheep's Clothing Logo">
+      </div>
+            
+      <div class="intro-description">
+        <p>Welcome to the demo of In Sheep's Clothing, a story driven security and social engineering awareness game.</p>
+        
+        <p>You've just been hired at a Project Management SaaS startup called <strong>Flockly</strong>, and this week is your onboarding. Each day, you'll face a short workplace scenario that may seem harmless… or it may be a test of your security instincts.</p>
+        
+        <p><strong>In this demo, you'll:</strong></p>
+        <ul class="intro-features">
+          <li>Play through one simulated work week (5 daily scenarios)</li>
+          <li>Face security dilemmas with multiple choice outcomes</li>
+          <li>Learn to navigate tricky situations without throwing coworkers under the bus</li>
+          <li>Climb the ranks based on your answers, from Sheeple 🐑 to GOAT Guard 🐐</li>
+        </ul>
+      </div>
+      
+      <button class="intro-start-btn" id="startGameBtn">Start Challenge</button>
+    </div>
+  </dialog>
+
+  <!-- Result Dialog -->
+  <dialog id="resultDialog">
+    <div class="modal">
+      <div id="modalBadge" class="modal-badge">Result</div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalMsg"></p>
+      <div id="rankChange" class="rank-change"></div>
+      <div class="modal-footer">
+        <button class="modal-btn primary" id="continueBtn">Continue</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 In Sheep's Clothing by Sentinel Arts Inc. | Made with ❤️ in LA
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

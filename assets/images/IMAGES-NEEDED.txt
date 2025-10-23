@@ -1,0 +1,34 @@
+IMAGES NEEDED FOR FULL GAME FUNCTIONALITY
+==========================================
+
+The following images are referenced in the code but not included.
+Please add these images to this directory (assets/images/) for the game to work properly.
+
+SCENARIO IMAGES (Day scenarios):
+- day1.png       - Security guard at entrance scenario
+- day2.png       - Login credentials on desk scenario  
+- day3.png       - Café Wi-Fi scenario
+- day4.png       - Unlocked workstation scenario
+- day-5.png      - Screen sharing scenario
+
+RANK/COMPLETION IMAGES (Achievement badges):
+- sheeple-rank.png         - Lowest rank (0-39 score)
+- flock-fumbler.png        - Second rank (40-54 score)
+- pasture-pal.png          - Third rank (55-69 score)
+- Shepherd Sentinel.png    - Fourth rank (70-84 score)
+- observant-owl.png        - Fifth rank (85-99 score)
+- goat-gaurd.png           - Highest rank (100 score)
+
+LOGOS (Already included):
+✓ logo-wordmark.png        - Horizontal logo for header
+✓ logo-wordmark-top.png    - Vertical logo for intro modal
+
+RECOMMENDED SPECIFICATIONS:
+- Format: PNG with transparency preferred
+- Size: 400-800px wide for scenario images
+- Size: 200-400px for rank images
+- Keep file sizes reasonable (<500KB each)
+- Use descriptive, thematic imagery that matches the sheep/wolf security theme
+
+NOTE: The game will still run without these images, but users will see broken image icons.
+The gameplay logic and scoring system will function normally.
