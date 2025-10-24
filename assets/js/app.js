@@ -301,7 +301,7 @@
         {
   title: "Day 3",
     image: "assets/images/day3.png",
-    scenario: "It's lunchtime. Karl, a software engineer, invites you to a café nearby.\n\nYou bring your laptop to finish setting up your account for Flockly's ERP system. You connect to the café Wi-Fi and start logging into your work email. Karl, explains the technical details of how Flockly developed their propreitory ERP application.\n\nHow shall you proceed?",
+    scenario: "It's lunchtime. Karl, a software engineer, invites you to a café nearby.\n\nYou bring your laptop to finish setting up your account for Flockly's ERP system. You connect to the café Wi-Fi and start logging into your work email. Karl, explains the technical details of how Flockly developed their proprietary ERP application.\n\nHow shall you proceed?",
     options: [
       {
         label: "Keep typing, everything’s encrypted these days, so there’s really no harm. It's nice to know how internal tools work.",
