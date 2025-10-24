@@ -393,7 +393,7 @@
 }
     ];
 
-    const DAY_LABELS = ["MONDAY", "TUESDAY", "WENDSDAY", "THURSDAY", "FRIDAY"];
+    const DAY_LABELS = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"];
 
     // ---------- State ----------
     let state = loadState();
